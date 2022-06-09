@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.leftside-div{
+    position: relative;
+    background-color: brown;
+    padding: 15px 0px;
+} 
+.rightside-div{
+    position: relative;
+    background-color: white;
+    padding: 15px 0px;
+} 
+.profile-img{
+    margin: 0px auto;
+    height: 230px;
+    width: 200px;
+    border-radius: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.leftside-div h1{
+    color: white;   
+}
+.leftside-div h2{
+    color: white;   
+    
+}
+.profile-section{
+    text-align: center;
+    padding: 15px;
+}
+hr{
+    width: 200px;
+    margin: 10px auto;
+    background-color: wheat;
+    border: 3px solid wheat;
+}
+.head{
+    color: white;
+    letter-spacing: 1px;
+    margin: 30px;
+    font-size: 30px;
+}
+.educational_info .college{
+    color: white;
+    margin : 30px;
+}
+.educational_info .jshigh_school{
+    color: white;
+    margin : 30px;
+}
+.contact_information{
+    position: relative;
+}
+.contact_information .contact{
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+}
+.contact_information ul li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 30px;
+}
+.rightside-div{
+    margin: 50px 50px;
+    font-size: 20px;
+}
+.leftside-div{
+    margin: 10px 10px;
+    font-size: 20px;
+}
+.padding-all{
+    padding-top: 10px;
+}
+.skill-info ul li{
+    margin-left: 15px;
+}
+.skill-info .lfp .ojt .certi ul li{
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
